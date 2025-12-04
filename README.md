@@ -12,4 +12,10 @@ Vol-normalized returns → separate percentile ranking of positive vs negative p
 * ***23% MDD***
 
 Tested on ETHUSDT. Data from Binance API. Similar results for SOL, XRP. Slightly more conservative results for BTCUSDT
+
+## **pairs_trading.ipynb**
+#### Statistical Arbitrage on EURO STOXX 50
+* Train - 1Y
+* Test - 6M (2024 Jan to June and July to Dec)
+Sharpe > 1 (positive returns)
 </p>
