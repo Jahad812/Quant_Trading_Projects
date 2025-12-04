@@ -1,3 +1,4 @@
+<p align="left">
 # **rank_strat.ipynb** – Percentile-Rank Momentum Strategy (Landolfi 2025)
 
 ### Strategy
@@ -9,3 +10,4 @@ Vol-normalized returns → separate percentile ranking of positive vs negative p
 * ***23% MDD***
 
 Tested on ETHUSDT. Data from Binance API. Similar results for SOL, XRP. Slightly more conservative results for BTCUSDT
+</p>
