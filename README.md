@@ -1,6 +1,7 @@
 <p align="left">
   
-# **rank_strat.ipynb** – Percentile-Rank Momentum Strategy (Landolfi 2025)
+## **rank_strat.ipynb**
+Percentile-Rank Momentum Strategy (Landolfi 2025)
 
 ### Strategy
 Vol-normalized returns → separate percentile ranking of positive vs negative price changes → composite scores of price changes → threshold entry/exit (hysteresis) + max-hold cap.
