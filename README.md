@@ -1,4 +1,5 @@
 <p align="left">
+  
 # **rank_strat.ipynb** – Percentile-Rank Momentum Strategy (Landolfi 2025)
 
 ### Strategy
