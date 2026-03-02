@@ -1,6 +1,19 @@
 <p align="left">
-  
-## **rank_strat.ipynb**
+
+## 1. **lstm_strat.ipynb**
+Crypto Portfolio (15 cryptos) - Long short-term memory (LSTM) strategy
+
+### Strategy
+LSTM model on crypto data from 2023-07 -> Walk-Forward test, step: 2 months. For optimization Log MDD loss was used instead of mse, rmse, etc.
+
+### Results
+* All test periods (2 months each) with a positive ***PnL ranging from 2% to 29%***
+* Max drawdown of 20% - w/o stop losses (potentially lower mdd)
+* further, detailed results in ***lstm_strat_walk_forward.pdf***
+
+used 15 cryptos, more could be used (1d, 1hr, 15min data availability from 2023 onwards)
+
+## 2. **rank_strat.ipynb**
 Percentile-Rank Momentum Strategy (Landolfi 2025)
 
 ### Strategy
@@ -13,7 +26,7 @@ Vol-normalized returns → separate percentile ranking of positive vs negative p
 
 Tested on ETHUSDT with transaction costs included. Data from Binance API. Similar results for SOL, XRP. Slightly more conservative results for BTCUSDT
 
-## **pairs_trading.ipynb**
+## 3. **pairs_trading.ipynb**
 #### Statistical Arbitrage on EURO STOXX 50
 * Train - 1Y
 * Test - 6M (2024 Jan to June and July to Dec)
